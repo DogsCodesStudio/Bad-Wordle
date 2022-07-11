@@ -1,0 +1,9 @@
+[package]
+name = "wordle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# TODO: Replace the * by the latest version numbers.
+bevy = "0.7"
+rand = "0.8.5"
