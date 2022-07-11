@@ -120,7 +120,7 @@ fn game_wordle(
                             word.current_word_string, word.correct_word
                         );
 
-                        for current_letter in 0..word.current_word.len() - 1 {
+                        for current_letter in 0..word.current_word.len() {
                             let correct_word: Vec<char> = word.correct_word.chars().collect();
                             if word.current_word[current_letter] == correct_word[current_letter] {
                                 for (mut sprite, position) in sprite.iter_mut() {
